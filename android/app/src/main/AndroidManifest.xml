@@ -1,4 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Internet access for API calls -->
+<uses-permission android:name="android.permission.INTERNET"/>
+
+<!-- Camera access -->
+<uses-permission android:name="android.permission.CAMERA"/>
+
+<!-- Storage access for gallery -->
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
     <application
         android:label="crop_disease_detector_app"
         android:name="${applicationName}"
